@@ -56,5 +56,10 @@ io.sockets.on('connection', function (socket) {
 
 	console.log('socket: server sends pong to all (3)');
 
+	socket.on( 'drawCircle', function( data, session ) {
+    	socket.broadcast.emit( 'drawCircle', data );
+	})
+
     });
 });
+
