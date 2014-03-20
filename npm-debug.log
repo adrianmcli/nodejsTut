@@ -1,0 +1,497 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '-f',
+1 verbose cli   'install',
+1 verbose cli   'socket.io',
+1 verbose cli   'express' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose read json c:\Users\Adrian\sites\12devs\testdraw\package.json
+5 warn package.json application-name@0.0.1 No README.md file found!
+6 verbose read json c:\Users\Adrian\sites\12devs\testdraw\node_modules\express\package.json
+7 verbose read json c:\Users\Adrian\sites\12devs\testdraw\node_modules\jade\package.json
+8 verbose read json c:\Users\Adrian\sites\12devs\testdraw\node_modules\socket.io\package.json
+9 verbose from cache c:\Users\Adrian\sites\12devs\testdraw\package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'socket.io', null ]
+12 verbose cache add name=undefined spec="socket.io" args=["socket.io",null]
+13 verbose parsed url { pathname: 'socket.io', path: 'socket.io', href: 'socket.io' }
+14 verbose cache add [ 'express@3.2.0', null ]
+15 verbose cache add name=undefined spec="express@3.2.0" args=["express@3.2.0",null]
+16 verbose parsed url { pathname: 'express@3.2.0',
+16 verbose parsed url   path: 'express@3.2.0',
+16 verbose parsed url   href: 'express@3.2.0' }
+17 verbose cache add name="express" spec="3.2.0" args=["express","3.2.0"]
+18 verbose parsed url { pathname: '3.2.0', path: '3.2.0', href: '3.2.0' }
+19 verbose addNamed [ 'express', '3.2.0' ]
+20 verbose addNamed [ '3.2.0', '3.2.0' ]
+21 silly lockFile 71475bfd-socket-io socket.io
+22 verbose lock socket.io C:\Users\Adrian\AppData\Roaming\npm-cache\71475bfd-socket-io.lock
+23 silly lockFile 043db733-express-3-2-0 express@3.2.0
+24 verbose lock express@3.2.0 C:\Users\Adrian\AppData\Roaming\npm-cache\043db733-express-3-2-0.lock
+25 silly lockFile 71475bfd-socket-io socket.io
+26 verbose url raw express/3.2.0
+27 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.2.0' ]
+28 verbose url resolved https://registry.npmjs.org/express/3.2.0
+29 info trying registry request attempt 1 at 17:22:04
+30 verbose etag "4SS3VPLTM8WEFIA2SOVE0XL1H"
+31 http GET https://registry.npmjs.org/express/3.2.0
+32 verbose addNamed [ 'socket.io', '' ]
+33 verbose addNamed [ null, '' ]
+34 silly lockFile c03de861-socket-io socket.io@
+35 verbose lock socket.io@ C:\Users\Adrian\AppData\Roaming\npm-cache\c03de861-socket-io.lock
+36 silly addNameRange { name: 'socket.io', range: '', hasData: false }
+37 verbose url raw socket.io
+38 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+39 verbose url resolved https://registry.npmjs.org/socket.io
+40 info trying registry request attempt 1 at 17:22:04
+41 verbose etag "B1EJT7PU69P9DN8CJKAYP1JQK"
+42 http GET https://registry.npmjs.org/socket.io
+43 http 304 https://registry.npmjs.org/socket.io
+44 silly registry.get cb [ 304,
+44 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+44 silly registry.get     etag: '"B1EJT7PU69P9DN8CJKAYP1JQK"',
+44 silly registry.get     date: 'Thu, 25 Apr 2013 00:22:18 GMT',
+44 silly registry.get     'content-length': '0' } ]
+45 verbose etag socket.io from cache
+46 silly addNameRange number 2 { name: 'socket.io', range: '', hasData: true }
+47 silly addNameRange versions [ 'socket.io',
+47 silly addNameRange   [ '0.3.8',
+47 silly addNameRange     '0.4.0',
+47 silly addNameRange     '0.4.1',
+47 silly addNameRange     '0.5.1',
+47 silly addNameRange     '0.5.3',
+47 silly addNameRange     '0.6.0',
+47 silly addNameRange     '0.6.1',
+47 silly addNameRange     '0.6.3',
+47 silly addNameRange     '0.6.4',
+47 silly addNameRange     '0.6.5',
+47 silly addNameRange     '0.6.6',
+47 silly addNameRange     '0.6.7',
+47 silly addNameRange     '0.6.8',
+47 silly addNameRange     '0.6.9',
+47 silly addNameRange     '0.6.10',
+47 silly addNameRange     '0.6.11',
+47 silly addNameRange     '0.6.12',
+47 silly addNameRange     '0.6.14',
+47 silly addNameRange     '0.6.15',
+47 silly addNameRange     '0.6.16',
+47 silly addNameRange     '0.6.17',
+47 silly addNameRange     '0.6.18',
+47 silly addNameRange     '0.7.0',
+47 silly addNameRange     '0.7.1',
+47 silly addNameRange     '0.7.2',
+47 silly addNameRange     '0.7.3',
+47 silly addNameRange     '0.7.4',
+47 silly addNameRange     '0.7.5',
+47 silly addNameRange     '0.7.6',
+47 silly addNameRange     '0.7.7',
+47 silly addNameRange     '0.7.8',
+47 silly addNameRange     '0.7.9',
+47 silly addNameRange     '0.7.10',
+47 silly addNameRange     '0.7.11',
+47 silly addNameRange     '0.8.0',
+47 silly addNameRange     '0.8.1',
+47 silly addNameRange     '0.8.2',
+47 silly addNameRange     '0.8.3',
+47 silly addNameRange     '0.8.4',
+47 silly addNameRange     '0.8.5',
+47 silly addNameRange     '0.8.6',
+47 silly addNameRange     '0.8.7',
+47 silly addNameRange     '0.9.0',
+47 silly addNameRange     '0.9.1',
+47 silly addNameRange     '0.9.1-1',
+47 silly addNameRange     '0.9.2',
+47 silly addNameRange     '0.9.3',
+47 silly addNameRange     '0.9.4',
+47 silly addNameRange     '0.9.5',
+47 silly addNameRange     '0.9.6',
+47 silly addNameRange     '0.9.7',
+47 silly addNameRange     '0.9.8',
+47 silly addNameRange     '0.9.9',
+47 silly addNameRange     '0.9.10',
+47 silly addNameRange     '0.9.11',
+47 silly addNameRange     '0.9.12',
+47 silly addNameRange     '0.9.13',
+47 silly addNameRange     '0.9.14' ] ]
+48 verbose addNamed [ 'socket.io', '0.9.14' ]
+49 verbose addNamed [ '0.9.14', '0.9.14' ]
+50 silly lockFile 937091a8-socket-io-0-9-14 socket.io@0.9.14
+51 verbose lock socket.io@0.9.14 C:\Users\Adrian\AppData\Roaming\npm-cache\937091a8-socket-io-0-9-14.lock
+52 silly lockFile 194f15d8-g-socket-io-socket-io-0-9-14-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.14.tgz
+53 verbose lock https://registry.npmjs.org/socket.io/-/socket.io-0.9.14.tgz C:\Users\Adrian\AppData\Roaming\npm-cache\194f15d8-g-socket-io-socket-io-0-9-14-tgz.lock
+54 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.14.tgz',
+54 verbose addRemoteTarball   '81af80ebf3ee8f7f6e71b1495db91f8fa53ff667' ]
+55 info retry fetch attempt 1 at 17:22:05
+56 verbose fetch to= C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\tmp.tgz
+57 http GET https://registry.npmjs.org/socket.io/-/socket.io-0.9.14.tgz
+58 http 304 https://registry.npmjs.org/express/3.2.0
+59 silly registry.get cb [ 304,
+59 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+59 silly registry.get     etag: '"4SS3VPLTM8WEFIA2SOVE0XL1H"',
+59 silly registry.get     date: 'Thu, 25 Apr 2013 00:22:18 GMT',
+59 silly registry.get     'content-length': '0' } ]
+60 verbose etag express/3.2.0 from cache
+61 silly lockFile b495ac45-js-org-express-express-3-2-0-tgz https://registry.npmjs.org/express/-/express-3.2.0.tgz
+62 verbose lock https://registry.npmjs.org/express/-/express-3.2.0.tgz C:\Users\Adrian\AppData\Roaming\npm-cache\b495ac45-js-org-express-express-3-2-0-tgz.lock
+63 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.2.0.tgz',
+63 verbose addRemoteTarball   '7b66d6c66b038038eedf452804222b3077374ae0' ]
+64 info retry fetch attempt 1 at 17:22:06
+65 verbose fetch to= C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\tmp.tgz
+66 http GET https://registry.npmjs.org/express/-/express-3.2.0.tgz
+67 http 200 https://registry.npmjs.org/socket.io/-/socket.io-0.9.14.tgz
+68 silly shasum updated bytes 34763
+69 info shasum 81af80ebf3ee8f7f6e71b1495db91f8fa53ff667
+69 info shasum C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\tmp.tgz
+70 verbose tar unpack C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\tmp.tgz
+71 silly lockFile 5a0c0633-25826-0-3429392543621361-package C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\package
+72 verbose lock C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\package C:\Users\Adrian\AppData\Roaming\npm-cache\5a0c0633-25826-0-3429392543621361-package.lock
+73 silly gunzTarPerm modes [ '755', '644' ]
+74 silly gunzTarPerm extractEntry package.json
+75 silly gunzTarPerm extractEntry .npmignore
+76 silly gunzTarPerm extractEntry LICENSE
+77 silly gunzTarPerm extractEntry index.js
+78 silly gunzTarPerm extractEntry TODO
+79 silly gunzTarPerm extractEntry .travis.yml
+80 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+81 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+82 silly gunzTarPerm extractEntry benchmarks/runner.js
+83 silly gunzTarPerm extractEntry Makefile
+84 silly gunzTarPerm extractEntry History.md
+85 silly gunzTarPerm extractEntry Readme.md
+86 silly gunzTarPerm extractEntry lib/logger.js
+87 silly gunzTarPerm extractEntry lib/namespace.js
+88 silly gunzTarPerm extractEntry lib/parser.js
+89 silly gunzTarPerm extractEntry lib/socket.io.js
+90 silly gunzTarPerm extractEntry lib/socket.js
+91 silly gunzTarPerm extractEntry lib/manager.js
+92 silly gunzTarPerm extractEntry lib/store.js
+93 silly gunzTarPerm extractEntry lib/transport.js
+94 silly gunzTarPerm extractEntry lib/util.js
+95 silly gunzTarPerm extractEntry lib/static.js
+96 silly gunzTarPerm extractEntry lib/stores/memory.js
+97 silly gunzTarPerm extractEntry lib/stores/redis.js
+98 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+99 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+100 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+101 silly gunzTarPerm extractEntry lib/transports/http.js
+102 silly gunzTarPerm extractEntry lib/transports/index.js
+103 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+104 silly gunzTarPerm extractEntry lib/transports/websocket.js
+105 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+106 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+107 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+108 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+109 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+110 http 200 https://registry.npmjs.org/express/-/express-3.2.0.tgz
+111 verbose read json C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\package\package.json
+112 silly lockFile 5a0c0633-25826-0-3429392543621361-package C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\package
+113 verbose from cache C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\package\package.json
+114 verbose tar pack [ 'C:\\Users\\Adrian\\AppData\\Roaming\\npm-cache\\socket.io\\0.9.14\\package.tgz',
+114 verbose tar pack   'C:\\Users\\Adrian\\AppData\\Local\\Temp\\npm-10540\\1366849325826-0.3429392543621361\\package' ]
+115 verbose tarball C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package.tgz
+116 verbose folder C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849325826-0.3429392543621361\package
+117 silly lockFile 18b17703-che-socket-io-0-9-14-package-tgz C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package.tgz
+118 verbose lock C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package.tgz C:\Users\Adrian\AppData\Roaming\npm-cache\18b17703-che-socket-io-0-9-14-package-tgz.lock
+119 silly lockFile 18b17703-che-socket-io-0-9-14-package-tgz C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package.tgz
+120 silly lockFile dfbca5ab-m-cache-socket-io-0-9-14-package C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package
+121 verbose lock C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package C:\Users\Adrian\AppData\Roaming\npm-cache\dfbca5ab-m-cache-socket-io-0-9-14-package.lock
+122 silly lockFile dfbca5ab-m-cache-socket-io-0-9-14-package C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package
+123 verbose tar unpack C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package.tgz
+124 silly lockFile dfbca5ab-m-cache-socket-io-0-9-14-package C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package
+125 verbose lock C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package C:\Users\Adrian\AppData\Roaming\npm-cache\dfbca5ab-m-cache-socket-io-0-9-14-package.lock
+126 silly gunzTarPerm modes [ '755', '644' ]
+127 silly gunzTarPerm extractEntry package.json
+128 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+129 silly gunzTarPerm extractEntry .npmignore
+130 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+131 silly gunzTarPerm extractEntry LICENSE
+132 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+133 silly gunzTarPerm extractEntry index.js
+134 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+135 silly gunzTarPerm extractEntry TODO
+136 silly gunzTarPerm modified mode [ 'TODO', 438, 420 ]
+137 silly gunzTarPerm extractEntry .travis.yml
+138 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+139 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+140 silly gunzTarPerm modified mode [ 'benchmarks/decode.bench.js', 438, 420 ]
+141 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+142 silly gunzTarPerm modified mode [ 'benchmarks/encode.bench.js', 438, 420 ]
+143 silly gunzTarPerm extractEntry benchmarks/runner.js
+144 silly gunzTarPerm modified mode [ 'benchmarks/runner.js', 438, 420 ]
+145 silly gunzTarPerm extractEntry Makefile
+146 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+147 silly gunzTarPerm extractEntry History.md
+148 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+149 silly gunzTarPerm extractEntry Readme.md
+150 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+151 silly gunzTarPerm extractEntry lib/logger.js
+152 silly gunzTarPerm modified mode [ 'lib/logger.js', 438, 420 ]
+153 silly gunzTarPerm extractEntry lib/namespace.js
+154 silly gunzTarPerm modified mode [ 'lib/namespace.js', 438, 420 ]
+155 silly gunzTarPerm extractEntry lib/parser.js
+156 silly gunzTarPerm modified mode [ 'lib/parser.js', 438, 420 ]
+157 silly gunzTarPerm extractEntry lib/socket.io.js
+158 silly gunzTarPerm modified mode [ 'lib/socket.io.js', 438, 420 ]
+159 silly gunzTarPerm extractEntry lib/socket.js
+160 silly gunzTarPerm modified mode [ 'lib/socket.js', 438, 420 ]
+161 silly gunzTarPerm extractEntry lib/manager.js
+162 silly gunzTarPerm modified mode [ 'lib/manager.js', 438, 420 ]
+163 silly gunzTarPerm extractEntry lib/store.js
+164 silly gunzTarPerm modified mode [ 'lib/store.js', 438, 420 ]
+165 silly gunzTarPerm extractEntry lib/transport.js
+166 silly gunzTarPerm modified mode [ 'lib/transport.js', 438, 420 ]
+167 silly gunzTarPerm extractEntry lib/util.js
+168 silly gunzTarPerm modified mode [ 'lib/util.js', 438, 420 ]
+169 silly gunzTarPerm extractEntry lib/static.js
+170 silly gunzTarPerm modified mode [ 'lib/static.js', 438, 420 ]
+171 silly gunzTarPerm extractEntry lib/stores/memory.js
+172 silly gunzTarPerm modified mode [ 'lib/stores/memory.js', 438, 420 ]
+173 silly gunzTarPerm extractEntry lib/stores/redis.js
+174 silly gunzTarPerm modified mode [ 'lib/stores/redis.js', 438, 420 ]
+175 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+176 silly gunzTarPerm modified mode [ 'lib/transports/flashsocket.js', 438, 420 ]
+177 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+178 silly gunzTarPerm modified mode [ 'lib/transports/htmlfile.js', 438, 420 ]
+179 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+180 silly gunzTarPerm modified mode [ 'lib/transports/http-polling.js', 438, 420 ]
+181 silly gunzTarPerm extractEntry lib/transports/http.js
+182 silly gunzTarPerm modified mode [ 'lib/transports/http.js', 438, 420 ]
+183 silly gunzTarPerm extractEntry lib/transports/index.js
+184 silly gunzTarPerm modified mode [ 'lib/transports/index.js', 438, 420 ]
+185 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+186 silly gunzTarPerm modified mode [ 'lib/transports/jsonp-polling.js', 438, 420 ]
+187 silly gunzTarPerm extractEntry lib/transports/websocket.js
+188 silly gunzTarPerm modified mode [ 'lib/transports/websocket.js', 438, 420 ]
+189 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+190 silly gunzTarPerm modified mode [ 'lib/transports/xhr-polling.js', 438, 420 ]
+191 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+192 silly gunzTarPerm modified mode [ 'lib/transports/websocket/default.js', 438, 420 ]
+193 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+194 silly gunzTarPerm modified mode [ 'lib/transports/websocket/hybi-07-12.js', 438, 420 ]
+195 silly shasum updated bytes 35967
+196 info shasum 7b66d6c66b038038eedf452804222b3077374ae0
+196 info shasum C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\tmp.tgz
+197 verbose tar unpack C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\tmp.tgz
+198 silly lockFile c30a7678-26039-0-5022966507822275-package C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\package
+199 verbose lock C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\package C:\Users\Adrian\AppData\Roaming\npm-cache\c30a7678-26039-0-5022966507822275-package.lock
+200 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+201 silly gunzTarPerm modified mode [ 'lib/transports/websocket/hybi-16.js', 438, 420 ]
+202 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+203 silly gunzTarPerm modified mode [ 'lib/transports/websocket/index.js', 438, 420 ]
+204 silly gunzTarPerm modes [ '755', '644' ]
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm extractEntry .npmignore
+207 silly gunzTarPerm extractEntry LICENSE
+208 silly gunzTarPerm extractEntry client.js
+209 silly gunzTarPerm extractEntry index.js
+210 silly gunzTarPerm extractEntry test.js
+211 silly gunzTarPerm extractEntry .travis.yml
+212 silly gunzTarPerm extractEntry History.md
+213 silly gunzTarPerm extractEntry Makefile
+214 silly gunzTarPerm extractEntry bin/express
+215 silly gunzTarPerm extractEntry Readme.md
+216 silly gunzTarPerm extractEntry lib/application.js
+217 silly gunzTarPerm extractEntry lib/express.js
+218 silly gunzTarPerm extractEntry lib/middleware.js
+219 silly gunzTarPerm extractEntry lib/request.js
+220 silly gunzTarPerm extractEntry lib/response.js
+221 silly gunzTarPerm extractEntry lib/utils.js
+222 silly gunzTarPerm extractEntry lib/view.js
+223 silly gunzTarPerm extractEntry lib/router/index.js
+224 silly gunzTarPerm extractEntry lib/router/route.js
+225 verbose read json C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\package\package.json
+226 silly lockFile c30a7678-26039-0-5022966507822275-package C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\package
+227 verbose read json C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package\package.json
+228 verbose from cache C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\package\package.json
+229 verbose tar pack [ 'C:\\Users\\Adrian\\AppData\\Roaming\\npm-cache\\express\\3.2.0\\package.tgz',
+229 verbose tar pack   'C:\\Users\\Adrian\\AppData\\Local\\Temp\\npm-10540\\1366849326039-0.5022966507822275\\package' ]
+230 verbose tarball C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package.tgz
+231 verbose folder C:\Users\Adrian\AppData\Local\Temp\npm-10540\1366849326039-0.5022966507822275\package
+232 silly lockFile ddaab698--cache-express-3-2-0-package-tgz C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package.tgz
+233 verbose lock C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package.tgz C:\Users\Adrian\AppData\Roaming\npm-cache\ddaab698--cache-express-3-2-0-package-tgz.lock
+234 silly lockFile dfbca5ab-m-cache-socket-io-0-9-14-package C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package
+235 silly shasum updated bytes 34704
+236 info shasum b27d436e7c0d1a7a80c0f93fa0be61ae80e1597b
+236 info shasum C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package.tgz
+237 verbose from cache C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package\package.json
+238 verbose chmod C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package.tgz 644
+239 silly chown skipping for windows C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package.tgz
+240 silly lockFile 194f15d8-g-socket-io-socket-io-0-9-14-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.14.tgz
+241 silly lockFile 937091a8-socket-io-0-9-14 socket.io@0.9.14
+242 silly lockFile c03de861-socket-io socket.io@
+243 silly lockFile ddaab698--cache-express-3-2-0-package-tgz C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package.tgz
+244 silly lockFile a79db9e4--npm-cache-express-3-2-0-package C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package
+245 verbose lock C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package C:\Users\Adrian\AppData\Roaming\npm-cache\a79db9e4--npm-cache-express-3-2-0-package.lock
+246 silly lockFile a79db9e4--npm-cache-express-3-2-0-package C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package
+247 verbose tar unpack C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package.tgz
+248 silly lockFile a79db9e4--npm-cache-express-3-2-0-package C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package
+249 verbose lock C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package C:\Users\Adrian\AppData\Roaming\npm-cache\a79db9e4--npm-cache-express-3-2-0-package.lock
+250 silly gunzTarPerm modes [ '755', '644' ]
+251 silly gunzTarPerm extractEntry package.json
+252 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+253 silly gunzTarPerm extractEntry .npmignore
+254 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+255 silly gunzTarPerm extractEntry LICENSE
+256 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+257 silly gunzTarPerm extractEntry client.js
+258 silly gunzTarPerm modified mode [ 'client.js', 438, 420 ]
+259 silly gunzTarPerm extractEntry index.js
+260 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+261 silly gunzTarPerm extractEntry test.js
+262 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+263 silly gunzTarPerm extractEntry .travis.yml
+264 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+265 silly gunzTarPerm extractEntry History.md
+266 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+267 silly gunzTarPerm extractEntry Makefile
+268 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+269 silly gunzTarPerm extractEntry bin/express
+270 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+271 silly gunzTarPerm extractEntry Readme.md
+272 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+273 silly gunzTarPerm extractEntry lib/application.js
+274 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+275 silly gunzTarPerm extractEntry lib/express.js
+276 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+277 silly gunzTarPerm extractEntry lib/middleware.js
+278 silly gunzTarPerm modified mode [ 'lib/middleware.js', 438, 420 ]
+279 silly gunzTarPerm extractEntry lib/request.js
+280 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+281 silly gunzTarPerm extractEntry lib/response.js
+282 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+283 silly gunzTarPerm extractEntry lib/utils.js
+284 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+285 silly gunzTarPerm extractEntry lib/view.js
+286 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+287 silly gunzTarPerm extractEntry lib/router/index.js
+288 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+289 silly gunzTarPerm extractEntry lib/router/route.js
+290 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+291 verbose read json C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package\package.json
+292 silly lockFile a79db9e4--npm-cache-express-3-2-0-package C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package
+293 silly shasum updated bytes 35800
+294 info shasum e1df156779d094c760cf52e68d07041fd1889dd4
+294 info shasum C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package.tgz
+295 verbose from cache C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package\package.json
+296 verbose chmod C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package.tgz 644
+297 silly chown skipping for windows C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package.tgz
+298 silly lockFile b495ac45-js-org-express-express-3-2-0-tgz https://registry.npmjs.org/express/-/express-3.2.0.tgz
+299 silly lockFile 043db733-express-3-2-0 express@3.2.0
+300 silly resolved [ { name: 'socket.io',
+300 silly resolved     version: '0.9.14',
+300 silly resolved     description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+300 silly resolved     homepage: 'http://socket.io',
+300 silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+300 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+300 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+300 silly resolved     repository:
+300 silly resolved      { type: 'git',
+300 silly resolved        url: 'https://github.com/LearnBoost/socket.io.git' },
+300 silly resolved     dependencies:
+300 silly resolved      { 'socket.io-client': '0.9.11',
+300 silly resolved        policyfile: '0.0.4',
+300 silly resolved        base64id: '0.1.0',
+300 silly resolved        redis: '0.7.3' },
+300 silly resolved     devDependencies:
+300 silly resolved      { expresso: '0.9.2',
+300 silly resolved        should: '*',
+300 silly resolved        benchmark: '0.2.2',
+300 silly resolved        microtime: '0.1.3-1',
+300 silly resolved        colors: '0.5.1' },
+300 silly resolved     optionalDependencies: { redis: '0.7.3' },
+300 silly resolved     main: 'index',
+300 silly resolved     engines: { node: '>= 0.4.0' },
+300 silly resolved     scripts: { test: 'make test' },
+300 silly resolved     readme: '# Socket.IO\n\nSocket.IO is a Node.JS project that makes WebSockets and realtime possible in\nall browsers. It also enhances WebSockets by providing built-in multiplexing,\nhorizontal scalability, automatic JSON encoding/decoding, and more.\n\n## How to Install\n\n```bash\nnpm install socket.io\n```\n\n## How to use\n\nFirst, require `socket.io`:\n\n```js\nvar io = require(\'socket.io\');\n```\n\nNext, attach it to a HTTP/HTTPS server. If you\'re using the fantastic `express`\nweb framework:\n\n#### Express 3.x\n\n```js\nvar app = express()\n  , server = require(\'http\').createServer(app)\n  , io = io.listen(server);\n\nserver.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\n#### Express 2.x\n\n```js\nvar app = express.createServer()\n  , io = io.listen(app);\n\napp.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\nFinally, load it from the client side code:\n\n```html\n<script src="/socket.io/socket.io.js"></script>\n<script>\n  var socket = io.connect(\'http://localhost\');\n  socket.on(\'news\', function (data) {\n    console.log(data);\n    socket.emit(\'my other event\', { my: \'data\' });\n  });\n</script>\n```\n\nFor more thorough examples, look at the `examples/` directory.\n\n## Short recipes\n\n### Sending and receiving events.\n\nSocket.IO allows you to emit and receive custom events.\nBesides `connect`, `message` and `disconnect`, you can emit custom events:\n\n```js\n// note, io.listen(<port>) will create a http server for you\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  io.sockets.emit(\'this\', { will: \'be received by everyone\' });\n\n  socket.on(\'private message\', function (from, msg) {\n    console.log(\'I received a private message by \', from, \' saying \', msg);\n  });\n\n  socket.on(\'disconnect\', function () {\n    io.sockets.emit(\'user disconnected\');\n  });\n});\n```\n\n### Storing data associated to a client\n\nSometimes it\'s necessary to store data associated with a client that\'s\nnecessary for the duration of the session.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'set nickname\', function (name) {\n    socket.set(\'nickname\', name, function () { socket.emit(\'ready\'); });\n  });\n\n  socket.on(\'msg\', function () {\n    socket.get(\'nickname\', function (err, name) {\n      console.log(\'Chat message by \', name);\n    });\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost\');\n\n  socket.on(\'connect\', function () {\n    socket.emit(\'set nickname\', prompt(\'What is your nickname?\'));\n    socket.on(\'ready\', function () {\n      console.log(\'Connected !\');\n      socket.emit(\'msg\', prompt(\'What is your message?\'));\n    });\n  });\n</script>\n```\n\n### Restricting yourself to a namespace\n\nIf you have control over all the messages and events emitted for a particular\napplication, using the default `/` namespace works.\n\nIf you want to leverage 3rd-party code, or produce code to share with others,\nsocket.io provides a way of namespacing a `socket`.\n\nThis has the benefit of `multiplexing` a single connection. Instead of\nsocket.io using two `WebSocket` connections, it\'ll use one.\n\nThe following example defines a socket that listens on \'/chat\' and one for\n\'/news\':\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nvar chat = io\n  .of(\'/chat\')\n  .on(\'connection\', function (socket) {\n    socket.emit(\'a message\', { that: \'only\', \'/chat\': \'will get\' });\n    chat.emit(\'a message\', { everyone: \'in\', \'/chat\': \'will get\' });\n  });\n\nvar news = io\n  .of(\'/news\');\n  .on(\'connection\', function (socket) {\n    socket.emit(\'item\', { news: \'item\' });\n  });\n```\n\n#### Client side:\n\n```html\n<script>\n  var chat = io.connect(\'http://localhost/chat\')\n    , news = io.connect(\'http://localhost/news\');\n\n  chat.on(\'connect\', function () {\n    chat.emit(\'hi!\');\n  });\n\n  news.on(\'news\', function () {\n    news.emit(\'woot\');\n  });\n</script>\n```\n\n### Sending volatile messages.\n\nSometimes certain messages can be dropped. Let\'s say you have an app that\nshows realtime tweets for the keyword `bieber`. \n\nIf a certain client is not ready to receive messages (because of network slowness\nor other issues, or because he\'s connected through long polling and is in the\nmiddle of a request-response cycle), if he doesn\'t receive ALL the tweets related\nto bieber your application won\'t suffer.\n\nIn that case, you might want to send those messages as volatile messages.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  var tweets = setInterval(function () {\n    getBieberTweet(function (tweet) {\n      socket.volatile.emit(\'bieber tweet\', tweet);\n    });\n  }, 100);\n\n  socket.on(\'disconnect\', function () {\n    clearInterval(tweets);\n  });\n});\n```\n\n#### Client side\n\nIn the client side, messages are received the same way whether they\'re volatile\nor not.\n\n### Getting acknowledgements\n\nSometimes, you might want to get a callback when the client confirmed the message\nreception.\n\nTo do this, simply pass a function as the last parameter of `.send` or `.emit`.\nWhat\'s more, when you use `.emit`, the acknowledgement is done by you, which\nmeans you can also pass data along:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'ferret\', function (name, fn) {\n    fn(\'woot\');\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(); // TIP: .connect with no args does auto-discovery\n  socket.on(\'connect\', function () { // TIP: you can avoid listening on `connect` and listen on events directly too!\n    socket.emit(\'ferret\', \'tobi\', function (data) {\n      console.log(data); // data will be \'woot\'\n    });\n  });\n</script>\n```\n\n### Broadcasting messages\n\nTo broadcast, simply add a `broadcast` flag to `emit` and `send` method calls.\nBroadcasting means sending a message to everyone else except for the socket\nthat starts it.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.broadcast.emit(\'user connected\');\n  socket.broadcast.json.send({ a: \'message\' });\n});\n```\n\n### Rooms\n\nSometimes you want to put certain sockets in the same room, so that it\'s easy\nto broadcast to all of them together.\n\nThink of this as built-in channels for sockets. Sockets `join` and `leave`\nrooms in each socket.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.join(\'justin bieber fans\');\n  socket.broadcast.to(\'justin bieber fans\').emit(\'new fan\');\n  io.sockets.in(\'rammstein fans\').emit(\'new non-fan\');\n});\n```\n\n### Using it just as a cross-browser WebSocket\n\nIf you just want the WebSocket semantics, you can do that too.\nSimply leverage `send` and listen on the `message` event:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'message\', function () { });\n  socket.on(\'disconnect\', function () { });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost/\');\n  socket.on(\'connect\', function () {\n    socket.send(\'hi\');\n\n    socket.on(\'message\', function (msg) {\n      // my msg\n    });\n  });\n</script>\n```\n\n### Changing configuration\n\nConfiguration in socket.io is TJ-style:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.configure(function () {\n  io.set(\'transports\', [\'websocket\', \'flashsocket\', \'xhr-polling\']);\n});\n\nio.configure(\'development\', function () {\n  io.set(\'transports\', [\'websocket\', \'xhr-polling\']);\n  io.enable(\'log\');\n});\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 Guillermo Rauch &lt;guillermo@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+300 silly resolved     readmeFilename: 'Readme.md',
+300 silly resolved     _id: 'socket.io@0.9.14',
+300 silly resolved     dist: { shasum: 'b27d436e7c0d1a7a80c0f93fa0be61ae80e1597b' },
+300 silly resolved     _from: 'socket.io@',
+300 silly resolved     _resolved: 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.14.tgz' },
+300 silly resolved   { name: 'express',
+300 silly resolved     description: 'Sinatra inspired web development framework',
+300 silly resolved     version: '3.2.0',
+300 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+300 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+300 silly resolved     dependencies:
+300 silly resolved      { connect: '2.7.6',
+300 silly resolved        commander: '0.6.1',
+300 silly resolved        'range-parser': '0.0.4',
+300 silly resolved        mkdirp: '~0.3.4',
+300 silly resolved        cookie: '0.0.5',
+300 silly resolved        'buffer-crc32': '~0.2.1',
+300 silly resolved        fresh: '0.1.0',
+300 silly resolved        methods: '0.0.1',
+300 silly resolved        send: '0.1.0',
+300 silly resolved        'cookie-signature': '1.0.1',
+300 silly resolved        debug: '*' },
+300 silly resolved     devDependencies:
+300 silly resolved      { ejs: '*',
+300 silly resolved        mocha: '*',
+300 silly resolved        jade: '*',
+300 silly resolved        hjs: '*',
+300 silly resolved        stylus: '*',
+300 silly resolved        should: '*',
+300 silly resolved        'connect-redis': '*',
+300 silly resolved        'github-flavored-markdown': '*',
+300 silly resolved        supertest: '0.0.1' },
+300 silly resolved     keywords:
+300 silly resolved      [ 'express',
+300 silly resolved        'framework',
+300 silly resolved        'sinatra',
+300 silly resolved        'web',
+300 silly resolved        'rest',
+300 silly resolved        'restful',
+300 silly resolved        'router',
+300 silly resolved        'app',
+300 silly resolved        'api' ],
+300 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+300 silly resolved     main: 'index',
+300 silly resolved     bin: { express: './bin/express' },
+300 silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+300 silly resolved     engines: { node: '*' },
+300 silly resolved     readme: '![express logo](http://f.cl.ly/items/0V2S1n0K1i3y1c122g04/Screen%20Shot%202012-04-11%20at%209.59.42%20AM.png)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org). [![Build Status](https://secure.travis-ci.org/visionmedia/express.png)](http://travis-ci.org/visionmedia/express) [![Dependency Status](https://gemnasium.com/visionmedia/express.png)](https://gemnasium.com/visionmedia/express)\n\n```js\nvar express = require(\'express\');\nvar app = express();\n\napp.get(\'/\', function(req, res){\n  res.send(\'Hello World\');\n});\n\napp.listen(3000);\n```\n\n## Installation\n\n    $ npm install -g express\n\n## Quick Start\n\n The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:\n\n Create the app:\n\n    $ npm install -g express\n    $ express /tmp/foo && cd /tmp/foo\n\n Install dependencies:\n\n    $ npm install\n\n Start the server:\n\n    $ node app\n\n## Features\n\n  * Built on [Connect](http://github.com/senchalabs/connect)\n  * Robust routing\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Focus on high performance\n  * Environment based configuration\n  * Executable for generating applications quickly\n  * High test coverage\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers. Making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n\n  Built on Connect you can use _only_ what you need, and nothing more, applications\n  can be as big or as small as you like, even a single file. Express does\n  not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](http://github.com/visionmedia/consolidate.js)\n  you can quickly craft your perfect framework.\n\n## More Information\n\n  * Join #express on freenode\n  * [Google Group](http://groups.google.com/group/express-js) for discussion\n  * Follow [tjholowaychuk](http://twitter.com/tjholowaychuk) on twitter for updates\n  * Visit the [Wiki](http://github.com/visionmedia/express/wiki)\n  * [日本語ドキュメンテーション](http://hideyukisaito.com/doc/expressjs/) by [hideyukisaito](https://github.com/hideyukisaito)\n  * [Русскоязычная документация](http://jsman.ru/express/)\n  * Run express examples [online](https://runnable.com/express)\n\n## Viewing Examples\n\nClone the Express repo, then install the dev dependencies to install all the example / test suite deps:\n\n    $ git clone git://github.com/visionmedia/express.git --depth 1\n    $ cd express\n    $ npm install\n\nthen run whichever tests you want:\n\n    $ node examples/content-negotiation\n\n## Running Tests\n\nTo run the test suite first invoke the following command within the repo, installing the development dependencies:\n\n    $ npm install\n\nthen run the tests:\n\n    $ make test\n\n## Contributors\n\n```\nproject: express\ncommits: 3559\nactive : 468 days\nfiles  : 237\nauthors:\n 1891\tTj Holowaychuk          53.1%\n 1285\tvisionmedia             36.1%\n  182\tTJ Holowaychuk          5.1%\n   54\tAaron Heckmann          1.5%\n   34\tcsausdev                1.0%\n   26\tciaranj                 0.7%\n   21\tRobert Sköld            0.6%\n    6\tGuillermo Rauch         0.2%\n    3\tDav Glass               0.1%\n    3\tNick Poulden            0.1%\n    2\tRandy Merrill           0.1%\n    2\tBenny Wong              0.1%\n    2\tHunter Loftis           0.1%\n    2\tJake Gordon             0.1%\n    2\tBrian McKinney          0.1%\n    2\tRoman Shtylman          0.1%\n    2\tBen Weaver              0.1%\n    2\tDave Hoover             0.1%\n    2\tEivind Fjeldstad        0.1%\n    2\tDaniel Shaw             0.1%\n    1\tMatt Colyer             0.0%\n    1\tPau Ramon               0.0%\n    1\tPero Pejovic            0.0%\n    1\tPeter Rekdal Sunde      0.0%\n    1\tRaynos                  0.0%\n    1\tTeng Siong Ong          0.0%\n    1\tViktor Kelemen          0.0%\n    1\tctide                   0.0%\n    1\t8bitDesigner            0.0%\n    1\tisaacs                  0.0%\n    1\tmgutz                   0.0%\n    1\tpikeas                  0.0%\n    1\tshuwatto                0.0%\n    1\ttstrimple               0.0%\n    1\tewoudj                  0.0%\n    1\tAdam Sanderson          0.0%\n    1\tAndrii Kostenko         0.0%\n    1\tAndy Hiew               0.0%\n    1\tArpad Borsos            0.0%\n    1\tAshwin Purohit          0.0%\n    1\tBenjen                  0.0%\n    1\tDarren Torpey           0.0%\n    1\tGreg Ritter             0.0%\n    1\tGregory Ritter          0.0%\n    1\tJames Herdman           0.0%\n    1\tJim Snodgrass           0.0%\n    1\tJoe McCann              0.0%\n    1\tJonathan Dumaine        0.0%\n    1\tJonathan Palardy        0.0%\n    1\tJonathan Zacsh          0.0%\n    1\tJustin Lilly            0.0%\n    1\tKen Sato                0.0%\n    1\tMaciej Małecki          0.0%\n    1\tMasahiro Hayashi        0.0%\n```\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2009-2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+300 silly resolved     readmeFilename: 'Readme.md',
+300 silly resolved     _id: 'express@3.2.0',
+300 silly resolved     dist: { shasum: 'e1df156779d094c760cf52e68d07041fd1889dd4' },
+300 silly resolved     _from: 'express@3.2.0',
+300 silly resolved     _resolved: 'https://registry.npmjs.org/express/-/express-3.2.0.tgz' } ]
+301 info install socket.io@0.9.14 into c:\Users\Adrian\sites\12devs\testdraw
+302 info install express@3.2.0 into c:\Users\Adrian\sites\12devs\testdraw
+303 info installOne socket.io@0.9.14
+304 info installOne express@3.2.0
+305 verbose from cache C:\Users\Adrian\AppData\Roaming\npm-cache\socket.io\0.9.14\package\package.json
+306 info c:\Users\Adrian\sites\12devs\testdraw\node_modules\socket.io unbuild
+307 verbose from cache c:\Users\Adrian\sites\12devs\testdraw\node_modules\socket.io\package.json
+308 info preuninstall socket.io@0.9.14
+309 verbose from cache C:\Users\Adrian\AppData\Roaming\npm-cache\express\3.2.0\package\package.json
+310 info c:\Users\Adrian\sites\12devs\testdraw\node_modules\express unbuild
+311 verbose read json c:\Users\Adrian\sites\12devs\testdraw\node_modules\express\package.json
+312 info uninstall socket.io@0.9.14
+313 verbose true,c:\Users\Adrian\sites\12devs\testdraw\node_modules,c:\Users\Adrian\sites\12devs\testdraw\node_modules unbuild socket.io@0.9.14
+314 info postuninstall socket.io@0.9.14
+315 info c:\Users\Adrian\sites\12devs\testdraw\node_modules\express unbuild
+316 verbose read json c:\Users\Adrian\sites\12devs\testdraw\node_modules\express\package.json
+317 info c:\Users\Adrian\sites\12devs\testdraw\node_modules\socket.io unbuild
+318 verbose read json c:\Users\Adrian\sites\12devs\testdraw\node_modules\socket.io\package.json
+319 error error rolling back Error: ENOTEMPTY, rmdir 'c:\Users\Adrian\sites\12devs\testdraw\node_modules\express\node_modules'
+319 error error rolling back  express@3.2.0 { [Error: ENOTEMPTY, rmdir 'c:\Users\Adrian\sites\12devs\testdraw\node_modules\express\node_modules']
+319 error error rolling back   errno: 53,
+319 error error rolling back   code: 'ENOTEMPTY',
+319 error error rolling back   path: 'c:\\Users\\Adrian\\sites\\12devs\\testdraw\\node_modules\\express\\node_modules' }
+320 error Error: ENOTEMPTY, rmdir 'c:\Users\Adrian\sites\12devs\testdraw\node_modules\express\node_modules\connect'
+321 error If you need help, you may report this log at:
+321 error     <http://github.com/isaacs/npm/issues>
+321 error or email it to:
+321 error     <npm-@googlegroups.com>
+322 error System Windows_NT 6.1.7601
+323 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "-f" "install" "socket.io" "express"
+324 error cwd c:\Users\Adrian\sites\12devs\testdraw
+325 error node -v v0.8.18
+326 error npm -v 1.2.2
+327 error path c:\Users\Adrian\sites\12devs\testdraw\node_modules\express\node_modules\connect
+328 error code ENOTEMPTY
+329 error errno 53
+330 verbose exit [ 53, true ]
